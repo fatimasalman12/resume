@@ -1,0 +1,75 @@
+
+/*body{
+    background-color: #AC7D88;
+}
+.name{
+    color: #FDF0D1;
+}
+.naming{
+    height: 200px;
+    width: 200px;
+    background-color: #944E63;
+    border: solid;
+    border-width: 10px; 
+    border-color: black;
+}
+.first{
+    height: 200px;
+    width: 200px;
+    background-color: #FFE7E7; 
+    margin-left: 210px;
+}
+.second{
+    height: 200px;
+    width: 200px;
+    background-color:#6D2932;
+    margin-left: 410px;
+}*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: transparent; /* Initially transparent background */
+    transition: background-color 0.3s;
+    z-index: 1000;
+  }
+  
+  .header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: #333; /* Initial gray color */
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .header.scrolled {
+    background-color: #333; /* Background color when scrolled */
+  }
+  
+  .header.scrolled a {
+    color: #fff; /* Text color when scrolled */
+  }
+  
+  .main-section {
+    height: 100vh; /* Adjust based on your content */
+    padding: 20px;
+  }
+  
+  /* Other styles for your content sections */
+  
